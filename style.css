@@ -1,0 +1,77 @@
+body{
+    font-family: sans-serif;
+    color: #262525
+}
+a{
+    color: #262525;
+    text-decoration: none;
+}
+.active{
+    color: rgb(29, 185, 133);
+}
+
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header-menu{
+    word-spacing: 8px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.introduction-title{
+    color: rgb(29, 185, 133);
+}
+.introduction-text{
+    display: flex;
+}
+.introduction-p{
+    margin: 10px;
+}
+.services{
+    display: flex;
+}
+
+.service-card{
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+}
+
+.service-card-patients{
+    background-color: #00ccb1;
+}
+
+.service-card-doctors{
+    background-color: #3d83df;
+}
+
+.service-card-clinics{
+    background-color: #1b2734;
+}
+.service-card-select1{
+    background-color: #00ccb1 ;
+    color: white;
+    border: none;
+    text-decoration: underline;
+
+}
+.service-card-select2{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    text-decoration: underline;
+}
+.service-card-select3{
+    background-color: #1b2734;
+    color: white;
+    border: none;
+    text-decoration: underline;
+
+}
